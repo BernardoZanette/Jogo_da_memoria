@@ -1,0 +1,52 @@
+* {box-sizing: border-box;}
+body {
+    background-color: rgb(125, 125, 125);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+button {
+    width: 25px;
+    height: 25px;
+}
+
+.jogadorAtivo {
+    background-color: rgb(208, 27, 27) !important;
+    transition: background-color 1s !important;
+}
+
+#jogadores {
+    margin-bottom: 20px;
+    display: flex;
+    width: min-content;
+}
+#jogadores>span {
+    border: solid 1px rgb(208, 27, 27);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+button:disabled {
+    background-color: rgb(208, 27, 27) !important;
+}
+
+#tabuleiro {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+}
+#tabuleiro>button {
+    height: 100px;
+    flex-basis: 25%;
+    background-color: transparent;
+    border: solid 1px rgb(208, 27, 27);
+    color: white;
+    border-radius: 15px;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+}
