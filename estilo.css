@@ -28,7 +28,9 @@ button {
     background-color: grey;
     color: white;
     font-weight: bold;
+    font-size: 25px;
     padding: 10px;
+    width: 150px;
 }
 button:disabled {
     background-color: rgb(208, 27, 27) !important;
@@ -46,7 +48,6 @@ button:disabled {
     background-color: transparent;
     border: solid 1px rgb(208, 27, 27);
     color: white;
-    border-radius: 15px;
     font-size: 40px;
     font-family: 'Press Start 2P', cursive;
 }
